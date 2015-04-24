@@ -1,0 +1,32 @@
+{
+  "name": "grunt-set-node",
+  "description": "grunt-set for node libraries development",
+  "homepage": "https://github.com/firstandthird/grunt-set-node",
+  "author": "First+Third",
+  "version": "0.0.1",
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "grunt-set",
+    "javascript",
+    "node",
+    "gruntcollection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firstandthird/grunt-set-node.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-set": "0.0.2"
+  },
+  "dependencies": {
+    "ft-jscs": "*",
+    "grunt-bytesize": "^0.1.1",
+    "grunt-contrib-jshint": "^0.7.2",
+    "grunt-contrib-watch": "^0.5.3",
+    "grunt-jscs": "^1.2.0",
+    "grunt-simple-mocha": "^0.4.0"
+  }
+}

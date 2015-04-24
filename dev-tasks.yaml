@@ -1,0 +1,10 @@
+aliases:
+  - 'default'
+  - 'connect'
+  - 'watch'
+  - 'notify:watch'
+connect:
+  options:
+    hostname: '*'
+    livereload: true
+    port: 8000

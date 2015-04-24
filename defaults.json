@@ -1,0 +1,5 @@
+{
+  "dev": "lib",
+  "dist": "dist",
+  "testType": "bdd"
+}

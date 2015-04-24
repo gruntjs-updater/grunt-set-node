@@ -1,0 +1,15 @@
+lib:
+  files:
+    - '<%= jshint.lib %>'
+  tasks:
+    - 'scripts'
+test:
+  files:
+    - '<%= jshint.test %>'
+  tasks:
+    - 'scripts'
+build:
+  files:
+    - 'Gruntfile.js'
+    - 'package.json'
+  tasks: 'default'
