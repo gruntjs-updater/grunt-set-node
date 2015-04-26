@@ -2,6 +2,7 @@ build:
   - 'Gruntfile.js'
   - 'package.json'
 lib:
+  - 'index.js'
   - '<%= dev %>/**/*.js'
 test:
   - 'test/**/*.js'

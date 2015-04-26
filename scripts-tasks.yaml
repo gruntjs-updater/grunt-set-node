@@ -6,7 +6,6 @@ simplemocha:
   options:
     timeout: 3000
     ignoreLeaks: false
-    grep: '*-test'
     ui: '<%= testType %>'
   src: 
     - 'test/**/*.js'
@@ -15,4 +14,4 @@ jscs:
     - '<%= jshint.lib %>'
     - '<%= jshint.test %>'
   options:
-    config: 'node_modules/grunt-set-jslib/node_modules/ft-jscs/jscs.json'
+    config: 'node_modules/grunt-set-node/node_modules/ft-jscs/jscs.json'
